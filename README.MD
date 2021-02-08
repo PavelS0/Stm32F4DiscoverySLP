@@ -1,7 +1,9 @@
+#Stm32F4DiscoverySLP
 
-
+Sound-light processor for STM32F4Diskovery
 
 #ЗАМЕТКИ:
+
 https://electronix.ru/forum/index.php?app=forums&module=forums&controller=topic&id=154447#comments
 При децимейшн факторе 64 нужно скормить 4 полуслова.
 DECIMATION_FACTOR_64 - это 64 бита, одно полуслово это 16 бит. Соответственно 4 полуслова.
@@ -11,7 +13,6 @@ DECIMATION_FACTOR_64 - это 64 бита, одно полуслово это 16
 HAL_I2S_Receive_DMA(&hi2s2, PDM_BUFFER, 8);
 В обработчике по заполнению половины буфера и полного буфера скармливать
 PDM фильтру соответственно первые 4 полуслова, и последние 4 полуслова.
-
 
 
 http://www.chibios.com/forum/viewtopic.php?t=2199
