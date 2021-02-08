@@ -1,8 +1,8 @@
-#Stm32F4DiscoverySLP
+# Stm32F4DiscoverySLP
 
 Sound-light processor for STM32F4Diskovery
 
-#ЗАМЕТКИ:
+# NOTES:
 
 https://electronix.ru/forum/index.php?app=forums&module=forums&controller=topic&id=154447#comments
 При децимейшн факторе 64 нужно скормить 4 полуслова.
